@@ -5,9 +5,9 @@ import math
 x = input ("Enter length of side A:     " )
 y = input ("Enter length of side B:     " )
 
-if x == "0":
+if x <= "0":
     print ("Your input must be a valid integer")
-elif y == "0":
+elif x <= "0":
     print ("Your input must be a valid integer")
 else:
     a = float(x) ** 2
